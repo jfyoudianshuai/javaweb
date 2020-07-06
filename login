@@ -6,7 +6,17 @@
     <title>登录</title>
 </head>
 <body>
-<div align="middle">
+<style  type="text/css" media="screen">
+    body
+    {
+        background-image:
+                url(beijing.jpg);
+        background-size:100% 100% ;
+        text-align:center;
+        vertical-align:middle;
+    }
+</style>
+<div>
     <form action="shop.jsp"  method="post">
         账号:<input type="text" name="username"><br>
         密码:<input type="password" name="password"><br>
